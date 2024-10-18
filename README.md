@@ -9,16 +9,16 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 
-1. import pandas module and import the required data set.
-2. Find the null values and count them.
-3. Count number of left values.
-4. From sklearn import LabelEncoder to convert string values to numerical values.
-5. From sklearn.model_selection import train_test_split.
-6. Assign the train dataset and test dataset.
-7. From sklearn.tree import DecisionTreeClassifier.
-8. Use criteria as entropy.
-9. From sklearn import metrics.
-10. Find the accuracy of our model and predict the require values.
+1. **Load Data**: Read the employee dataset.
+2. **Explore Data**: Check for missing values and data types.
+3. **Encode Variables**: Convert categorical features to numerical values.
+4. **Define Features and Target**: Set features (`X`) and target variable (`y`).
+5. **Split Data**: Split into training and testing sets (80/20).
+6. **Initialize Classifier**: Create a `DecisionTreeClassifier`.
+7. **Train Model**: Fit the classifier on training data.
+8. **Make Predictions**: Predict outcomes on the test set.
+9. **Evaluate Accuracy**: Calculate accuracy of predictions.
+10. **Test New Inputs**: Predict churn for new employee data.
 
 ## Program:
 ```
@@ -54,8 +54,8 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/ada76d8e-5558-42a4-b2a0-a0513c82dd03)
-![image](https://github.com/user-attachments/assets/13b8f750-ee74-4d7e-b27b-262f74ff723e)
+![image](https://github.com/user-attachments/assets/d5621a23-1907-433f-a2da-92f0d51ff77d)
+![image](https://github.com/user-attachments/assets/04c2d2df-2948-4b9a-8694-2ff305790068)
 ![image](https://github.com/user-attachments/assets/bf6901ae-797b-45ac-9fc3-d0bad39d6381)
 ![image](https://github.com/user-attachments/assets/670844d6-1caa-4bb8-ab1d-ff26bf175a60)
 ![image](https://github.com/user-attachments/assets/d749ac2a-7c6e-4cc4-9fe0-98de8173cfcf)
